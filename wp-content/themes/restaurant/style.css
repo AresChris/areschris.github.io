@@ -1,0 +1,203 @@
+/*
+Theme Name: restaurants2
+Author: Christopher Ares
+*/
+.header{
+    display: flex;
+    height: 1000px;
+    background-image: url('http://localhost/restaurant/wp-content/uploads/2026/05/sushis-header.png');
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-1{
+    width: 150px;
+    height: 150px;
+}
+.nav-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: x-large;
+    color: white;
+}
+.container-1{
+    display: grid;
+    grid-template-areas: "img txt";
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    margin-left: 226px;
+}
+.specialites-japonaises{
+    grid-area: img;  
+    height: 500px;
+}
+.specialites-japonaises img{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    box-shadow: black 5px 5px 5px 5px;
+}
+img.img-sushi-1{
+    height: 100%;
+}
+.specialites-japonaises-square{
+    grid-area: txt;
+    width: 500px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: #e03939;
+    box-shadow: black 5px 5px 5px 5px;
+}
+.texte-container-1{
+    margin: 15px;
+    text-align: justify;
+}
+.buttons{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    height: 60px;
+    gap: 50px;
+}
+.div-a-propos{
+    height: 60px;
+}
+.a-propos{
+    width: 100px;
+    height: 60px;
+    color: #721225;
+}
+.decouvrir-la-carte{
+    width: 100px;
+    height: 60px;
+    color: #721225;
+}
+.label-rouge{
+    color: #721225;
+}
+.container-2{
+    width: 1000px;
+    margin: auto;
+}
+.container-2 h3{
+    color: #571225;
+}
+.banner-carte-emporter{
+    background-image: url('http://localhost/restaurant/wp-content/uploads/2026/05/banner.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 300px;
+}
+.decouvrir{
+    width: 100px;
+    height: 60px;
+}
+.container-3{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    gap: 30px;
+    width: 900px;
+}
+.chef{
+    width: 406px;
+    background-color: #721225;
+    text-align: center;
+    align-content: center;
+}
+.cours{
+    width: 406px;
+    background-color: #721225;
+    text-align: center;
+    align-content: center;
+}
+.cours img{
+    width: 406px;
+    height: 304px;
+}
+.chef img{
+    width: 406px;
+    height: 304px;
+}
+.bienvenue{
+    width: 500px;
+}
+.container-4{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    margin: 20px;
+}
+.container-copyright{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+.contacts{
+    width: 1200px;
+    margin: auto;
+    text-align: justify;
+}
+h2{
+    width: 200px;
+    margin: auto;
+}
+.container-5{
+    display: flex;
+    justify-content: space-between;
+}
+.sushis img{
+    width: 300px;
+    height: 300px;
+}
+.sushis{
+    width: 300px;
+    height: 300px;
+}
+.makis img{
+    width: 300px;
+    height: 300px;
+}
+.makis{
+    width: 300px;
+    height: 300px;
+}
+.yakitoris img{
+    width: 300px;
+    height: 300px;
+}
+.sashimis img{
+    width: 300px;
+    height: 300px;
+}
+.container-6{
+    display: flex;
+    justify-content: space-between;
+}
+.coca-cola img{
+    width: 300px;
+    height: 300px;
+}
+.schweppes-agrum img{
+    width: 300px;
+    height: 300px;
+}
+.limonade img{
+    width: 300px;
+    height: 300px;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #721225;
+}
